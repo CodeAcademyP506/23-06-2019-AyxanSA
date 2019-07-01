@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <div class="root">
+        <div class="action">
+            <label for="inputTitle">
+                Title
+                <input type="text" placeholder="filmin adi" name="inputTitle" id="inputTitle">
+            </label>
+
+            <label for="inputRating">
+                Rating
+                <input type="number" placeholder="0" step="1" min="0" max="10" name="inputRating" id="inputRating">
+            </label>
+
+            <button type="button" id="add">Add movie</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th> Title
+                    </th>
+                    <th>
+                        Rating
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Illusionist</td>
+                    <td>7.6</td>
+                    <td>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>The Prestige</td>
+                    <td>9.7</td>
+                    <td>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="myscript.js"></script>
+</body>
+
+</html>

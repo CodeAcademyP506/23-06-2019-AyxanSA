@@ -1,0 +1,19 @@
+.root{
+    border: 2px solid rgb(147, 240, 25);
+    padding: 15px;
+    background-color: aqua;
+}
+.action
+{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    width: 100%;
+}
+table thead {
+    border: 1px solid red;
+}
+table tr th:first-child{
+    width: 70%;
+}
